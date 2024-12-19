@@ -36,7 +36,7 @@ sudo docker build .
 3) запускаем два контейнера
 ```bash
 sudo docker run -d --name f1 aafire sleep infinity
-sudo docker run -d --name f1 aafire sleep infinity
+sudo docker run -d --name f2 aafire sleep infinity
 ```
 4) проверяем, что они запустились с помощью команды
 ```bash
